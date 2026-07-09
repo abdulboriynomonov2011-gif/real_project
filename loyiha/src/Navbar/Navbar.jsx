@@ -12,10 +12,10 @@ const Navbar = () => {
 
 
 <div className="menu1">
-<a className='matn1' href="">Menu</a>
-<a className='matn1' href="">News</a>
-<a className='matn1' href="">About Us</a>
-<a className='matn1' href="">Contact Us</a>
+<a className='matn1' href="##">Menu</a>
+<a className='matn1' href="##">News</a>
+<a className='matn1' href="##">About Us</a>
+<a className='matn1' href="##">Contact Us</a>
 <button className='tugma' > <a className='matn' href="">Log in</a> </button>
 </div>
     </div>
@@ -34,11 +34,16 @@ const Navbar = () => {
 
 </div>
 
+
+
 <div className="ong">
 
 <img className='rasm2' src={Rasm2} alt="" />
 
 
+{/* <i class="fa-solid fa-arrow-up-long i1 "></i> */}
+<p className='p2' >|</p>
+<p className='p1' >SCROLL</p>
 
 </div>
 

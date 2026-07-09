@@ -68,7 +68,7 @@ text-decoration: none;
 .boshqismi
 {
 width: 100%;
-height: 700px;
+height: 550px;
 background-color: rgb(206, 67, 67);
 
 display: flex;
@@ -138,4 +138,41 @@ background-color: rgba(240, 248, 255, 0);
 border: 2px solid rgb(255, 255, 255);
 border-radius: 30px;
 color: white;
+}
+
+
+.i1
+{
+
+color: white;
+font-size: 25px;
+font-weight: 600;
+margin-top: 40px;
+margin-left: 20px;
+padding-top: 50px;
+
+
+}
+
+.p1
+{
+
+color: white;
+font-size: 25px;
+font-weight: 600;
+/* margin-top: 10px; */
+margin-left: 435px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.p2
+{
+
+color: white;
+font-size: 29px;
+font-weight: 600;
+margin-top: 1px;
+margin-left: 465px;
+
 }
