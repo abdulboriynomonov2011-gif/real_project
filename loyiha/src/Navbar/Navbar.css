@@ -101,9 +101,11 @@ height: 500px;
 .rasm2
 {
 box-shadow: 40px 0px 0px 0px rgb(238, 61, 91) ;
-    width: 400px;
+    width: 300px;
 border-radius: 50%;
-height: 400px;
+height: 300px;
+margin-top: 100px;
+margin-left: 130px;
 border: 3px solid rgb(238, 61, 91);
 }
 

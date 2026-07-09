@@ -1,0 +1,70 @@
+.ota_card
+{
+width: 100%;
+height: 500px;
+background-color: rgb(233, 59, 59);
+
+
+}
+
+.card_menu
+{
+width: 100%;
+height: 80px;
+background-color: rgb(255, 255, 255);
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+.card_menu h1
+{
+color: rgb(238, 61, 91);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight:100;
+font-size: 35px;
+margin-left: 70px;
+}
+
+.tugmalar
+{
+
+width: 200px ;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin-right: 70px;
+}
+
+
+.tugmalar button
+{
+width: 30px;
+height: 30px;
+border: 1px solid red;
+border-radius: 5px;
+font-size: 15px;
+text-align: center;
+}
+
+.tugmalar  :nth-child(1)
+{
+width: 30px;
+height: 30px;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 5px;
+font-size: 15px;
+text-align: center;
+}
+
+
+.card
+{
+width: 100%;
+height: 500px;
+background-color: rgb(66, 66, 71);
+
+
+}
