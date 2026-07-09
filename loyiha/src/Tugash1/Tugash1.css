@@ -1,0 +1,317 @@
+/* Umumiy sozlamalar */
+.bashi {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.blog-section {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.blog-card {
+  background: #fff;
+  flex: 1;
+  min-width: 280px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.card-image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #0c0c0c;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.read-more-btn {
+  color: #cc2a41;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.view-more-container {
+  margin-top: 40px;
+}
+
+.view-more-btn {
+  background: transparent;
+  border: 1px solid #cc2a41;
+  color: #cc2a41;
+  padding: 10px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.view-more-btn:hover {
+  background: #cc2a41;
+  color: #fff;
+}
+
+
+/* --- 2. Ichki Ko'rinish Banner --- */
+.interior-banner {
+  /* Restoran ichki dizayni rasmi o'rnatildi */
+  background: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat;
+  height: 450px;
+  position: relative;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-button {
+  background: #fff;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+}
+
+/* --- 3. Galereya Bo'limi --- */
+.gallery-section {
+  padding: 60px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  background: #f4f4f4;
+  flex-wrap: wrap;
+}
+
+.gallery-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.gallery-info span {
+  color: #666;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.gallery-info h2 {
+  font-size: 32px;
+  margin: 10px 0 20px 0;
+  color: #0c0c0c;
+}
+
+.gallery-info p {
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.gallery-grid {
+  flex: 2;
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+}
+
+.gallery-item img {
+  width: 180px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* --- 4. Footer va Newsletter Bo'limi --- */
+.footer-section {
+  background: #cc2a41; /* To'q qizil fon */
+  color: #fff;
+  padding: 0 10% 30px 10%;
+  position: relative;
+  margin-top: 150px; /* Newsletter tepaga chiqishi uchun joy */
+}
+
+/* Newsletter qutisi tepaga chiqib turishi uchun */
+.newsletter-box {
+  background: #aa1e32;
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  position: relative;
+  top: -100px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.newsletter-box span {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.newsletter-box h2 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.newsletter-box p {
+  font-size: 14px;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.subscribe-form input {
+  flex: 1;
+  padding: 12px 15px;
+  border: 1px solid rgba(255,255,255,0.4);
+  background: transparent;
+  color: #fff;
+  border-radius: 4px;
+  outline: none;
+}
+
+.subscribe-form input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.subscribe-form button {
+  background: #fff;
+  color: #cc2a41;
+  border: none;
+  padding: 12px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.subscribe-form button:hover {
+  background: #f4f4f4;
+}
+
+/* Footer asosiy qismi */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: -40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-column h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-column p {
+  font-size: 14px;
+  opacity: 0.8;
+  line-height: 1.6;
+  margin: 5px 0;
+}
+
+.brand-column .brand-logo {
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons .icon {
+  background: rgba(255,255,255,0.1);
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+/* Ekran kichrayganda moslashuvchanlik (Responsive) */
+@media (max-width: 768px) {
+  .cards-container, .gallery-section, .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .subscribe-form {
+    flex-direction: column;
+    width: 100%;
+  }
+}   

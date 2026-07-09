@@ -3,6 +3,7 @@ import Navbar from './Navbar/Navbar'
 import Card from './Card/Card.jsx'
 import Card1 from './Card1/Card1.jsx'
 import Kill from './Kill/Kill.jsx'
+import Tugash1 from './Tugash1/Tugash1.jsx'
 
 
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
 
 <Kill/>
 
-
+<Tugash1/>
 
 
 
